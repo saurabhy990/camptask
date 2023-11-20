@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,800;1,700&display=swap'); 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+     
+}
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    background:whitesmoke;
+}
+header{
+    position: fixed;
+    z-index: 5;
+    padding: 20px 0px;
+    width:100%;
+     
+    color: white;
+    background: #333;
+}
+.navbar{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+  
+     
+}
+ #logo:hover{
+    color:#dddddd;
+ }   
+
+.navlinks{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding-left: 80px;
+
+}
+.navlinks li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+.navlinks a:hover{
+    color:#dddddd;
+}
+
+.homesection{
+    background-image: url('https://koa.com/blog/images/family-camping-at-sunset.jpg?preset=heroimagecropped');
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    height: 100vh;
+    width: 100%;
+    position: relative;  
+    background-position: center;
+}
+    /* background-attachment: fixed; */
+    
+   .decs{
+    background-color: rgba(0, 0, 0, 0.2);
+     color:white;
+    display: flex;
+    flex-direction: column;
+   padding:400px 40px ;
+   padding-bottom: 220PX;
+   justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 150px;
+     
+   }
+ .button{
+    color: #000;
+    display: block;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 0 10px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: #fff;
+    border: 2px solid #fff;
+    transition: 0.4s ease;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+
+    
+ }
+ .button:hover{
+  color: #fff;
+  background: rgba(255,255,255,0.3);  
+ } 
+
+ h1{
+     font-size:9vmin;;
+     
+ }
+ p{
+    font-size:20px;
+    padding-bottom: 30px;
+ }
+
+ main{
+     background:whitesmoke;
+     background-size: cover;
+ }
+ .parent_title{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 70px;
+      
+ }
+ .parent_title h2{
+     font-size:  4vmin;;
+     font-weight:bolder;
+ }
+ .parent_title p{
+      
+      padding: 13px 0;
+        
+ }
+ .flex_items{
+     padding: 20px;
+      
+     background-color: white;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     border: 0px solid  azure;
+     width:360px;
+     height: 340px;
+     text-align: center;
+
+     
+
+ }
+ .flex_items img{
+    
+     align-items: center;
+     height: 120px;
+     width: 120px;
+     border-radius:100%;
+      
+ }
+ .flex_items h4{
+    padding: 10px;
+    font-size: larger;
+ }
+ .flex_items p{
+    /* padding-top: 15px; */
+    font-size:1.02em;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 30px;
+}
+.about_us{
+  
+    text-align:start;
+    padding:0 150px;
+}
+.about_us h3{
+   padding: 10px 0;
+}
+
+/* Contact us  SECTION */
+
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    
+}
+
+.footer-details{
+  
+    margin:60px 0 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon-with-text{
+    width: 530px;
+    height: 24px;
+    margin-bottom: 10px;
+    display:flex;
+    gap: 10px;
+}
+
+.icon{
+    color: #7a7a7a;
+    font-variation-settings: 'GRAD' -25;
+}
+
+#form input{
+    height:45px;
+}
+
+#form textarea,#form input{
+    width:530px;
+    display: block;
+    margin-bottom:20px;
+    padding:10px;
+    border: 1px solid #bfbfbf;
+    outline:none;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#form textarea{
+    height: 150px;
+    margin-bottom:3px;
+}
+
+#submit{
+    margin-top:10px;
+    padding:10px 20px;
+    border-radius:5px;
+    border:none;
+    background-color: #333333;
+    color: white;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#submit:hover{
+    background-color: #525252;
+}
